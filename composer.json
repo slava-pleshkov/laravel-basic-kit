@@ -20,6 +20,7 @@
         "filp/whoops": "^2.5",
         "fzaninotto/faker": "^1.8",
         "laravel/homestead": "^8.6",
+        "laravel/ui": "^1.0",
         "mockery/mockery": "^1.2",
         "nunomaduro/collision": "^2.1",
         "phpunit/phpunit": "^8.4"
