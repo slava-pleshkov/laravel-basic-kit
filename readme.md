@@ -5,7 +5,7 @@
     <h1 align="center">laravel-basic-kit</h1>
     <br>
 </p>
-<p align="center">⛽ Start application on Laravel 5.7 Framework to start a new project</p>
+<p align="center">⛽ Start application on Laravel 6.1 Framework to start a new project</p>
 
 ## Installation Dev (Vagrant)
 
@@ -83,19 +83,11 @@
 1. Run this command `heroku config:set APP_URL=secret`
 1. Run this command `heroku config:set LOG_CHANNEL=errorlog`
 1. Run this command `heroku config:set DB_CONNECTION=pgsql`
-1. Run this command `heroku config:set DB_HOST=secret`
-1. Run this command `heroku config:set DB_PORT=secret`
-1. Run this command `heroku config:set DB_DATABASE=secret`
-1. Run this command `heroku config:set DB_USERNAME=secret`
-1. Run this command `heroku config:set DB_PASSWORD=secret`
-1. Run this command `heroku config:set REDIS_HOST=secret`
-1. Run this command `heroku config:set REDIS_PASSWORD=secret`
-1. Run this command `heroku config:set REDIS_PORT=secret`
 1. Run this command `heroku config:set BROADCAST_DRIVER=log`
 1. Run this command `heroku config:set CACHE_DRIVER=redis`
 1. Run this command `heroku config:set SESSION_DRIVER=redis`
 1. Run this command `heroku config:set SESSION_LIFETIME=120`
-1. Run this command `heroku config:set QUEUE_DRIVER=sync`
+1. Run this command `heroku config:set QUEUE_DRIVER=redis`
 1. Run this command `heroku config:set MAIL_DRIVER=secret`
 1. Run this command `heroku config:set MAIL_HOST=secret`
 1. Run this command `heroku config:set MAIL_USERNAME=secret`

@@ -1,6 +1,6 @@
 {
   "name": "Laravel basic kit",
-  "description": "Start application on Laravel 5.7 Framework to start a new project",
+  "description": "Start application on Laravel 6.1 Framework to start a new project",
   "repository": "https://github.com/slava-pleshkov/laravel-basic-kit",
   "logo": "https://github.com/slava-pleshkov/laravel-basic-kit/blob/master/public/images/logo.png?raw=true",
   "keywords": [
@@ -33,30 +33,6 @@
     "DB_CONNECTION": {
       "value": "pgsql"
     },
-    "DB_HOST": {
-      "generator": "secret"
-    },
-    "DB_PORT": {
-      "generator": "secret"
-    },
-    "DB_DATABASE": {
-      "generator": "secret"
-    },
-    "DB_USERNAME": {
-      "generator": "secret"
-    },
-    "DB_PASSWORD": {
-      "generator": "secret"
-    },
-    "REDIS_HOST": {
-      "generator": "secret"
-    },
-    "REDIS_PASSWORD": {
-      "generator": "secret"
-    },
-    "REDIS_PORT": {
-      "generator": "secret"
-    },
     "BROADCAST_DRIVER": {
       "value": "log"
     },
@@ -70,7 +46,7 @@
       "value": "120"
     },
     "QUEUE_DRIVER": {
-      "value": "sync"
+      "value": "redis"
     },
     "MAIL_DRIVER": {
       "generator": "secret"
